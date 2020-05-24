@@ -1,0 +1,29 @@
+#balk{
+    width: 95%;
+    position: fixed;
+    top: 0;
+    text-align: right;
+}
+.paars{
+    color: purple;
+}
+.groen{
+    color: green; 
+}
+a{
+    text-decoration: none; 
+}
+#product{
+    height: 50%;
+    width: 30%; 
+    margin: auto; 
+
+}
+#ProductWrapper{
+    border-style: solid; 
+    width:30%;
+    margin: auto;
+    display: flex;
+    height: 80%;
+    margin-top: 170px;
+}

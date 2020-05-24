@@ -1,0 +1,346 @@
+    #main {
+    transition: margin-left .5s;
+    transition: background-color 0.5s;
+    }
+  #bovenbalk{
+    width: 100%; 
+    height: 200px; 
+    background-image: linear-gradient(#222, #eee);
+  }
+  #styling{
+    width: 400px;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: 180px;
+  }
+  #logo{
+    width: 150px;
+    height: 150px;
+  }
+  #menuknop{
+    font-size: 30px;
+    cursor: pointer; 
+  
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+    body{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      transition: background-color 0.5s;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10%;
+    }
+    #mid{
+      width: 50%;
+      margin-left: 25%;
+      float: left;
+      padding-bottom: 20px;
+      padding-top: 200px; 
+   
+    }
+    #initiatie{
+      float:left;
+      width:48%;
+      margin-right: 2%;
+      margin-bottom: 50px;
+      font-size: 18px;
+    }
+    #schietles{
+      float:left;
+      width:48%;
+      margin-left: 2%;
+      margin-bottom: 50px;
+      font-size: 18px;
+    }
+    #opening{
+      margin-top: 100px;
+      clear: both;
+      width:100%;
+      height: 200px;
+      background-color: #ccc;
+      padding-top:10px;
+      padding-left:10px;
+      padding-right:10px;
+      overflow-x:auto;
+      text-align: center;
+      font-size: 18px;
+    }
+    
+    footer{
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      margin-top: 1150px;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(#eee, #222);
+      text-align: center;
+    }
+    footer p{
+      margin-top: 50px;
+    }
+    #wrap{
+      min-height: 100%;
+      position: relative;
+      margin-top: -150px;
+    }
+    table{
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 10px;
+    }
+    th{
+      border-bottom: 1px solid black;
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: center;
+    }
+    td{
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      text-align: center;
+    }
+
+   
+
+    @media screen and (min-width: 1920px){
+        #initiatie{
+            font-size: 35px;
+        }
+        #schietles{
+            font-size: 35px;
+        }
+        #opening{
+            font-size: 35px; 
+            height: 350px;
+        }
+        footer p{
+            font-size: 30px;
+        }
+        .sidenav a{
+            font-size: 40px;
+        }
+        .sidenav .closebtn{
+            font-size: 80px;
+        }
+        #menuknop
+        {
+            font-size: 40px;
+            margin-left: -20px;
+        }
+
+    }
+
+    @media screen and (min-width: 1600px){
+        #initiatie{
+            font-size: 35px;
+        }
+        #schietles{
+            font-size: 35px;
+        }
+        #opening{
+            font-size: 35px; 
+            height: 300px;
+        }
+        .sidenav a{
+            font-size: 40px;
+        }
+        .sidenav .closebtn{
+            font-size: 80px;
+        }
+        #menuknop
+        {
+            font-size: 40px;
+            margin-left: -20px;
+        }
+
+    }
+
+    @media screen and (max-width: 1024px){
+        #schietles{
+            font-size: 35px;
+        }
+        #initiatie{
+            font-size: 35px;
+        }
+        #opening{
+            font-size: 35px;
+            height: 300px;
+        }
+        footer p{
+            font-size: 30px;
+        }
+        .sidenav a{
+            font-size: 40px;
+        }
+        .sidenav .closebtn{
+            font-size: 80px;
+        }
+        #menuknop
+        {
+            font-size: 40px;
+            margin-left: -20px;
+        }
+
+    }
+
+    @media screen and (max-width: 768px){
+        #wrap{
+  
+            margin-top: -20px;
+            height: 80%;
+        }
+       
+        #mid{
+
+            height: 40%;
+        }
+        #schietles{
+            margin-top: -180px;
+        }
+        #initiatie{
+            margin-top: -180px;
+        }
+
+    }
+  
+    @media screen and (max-width: 414px){
+  
+        #main {
+            transition: margin-left .5s;
+            transition: background-color 0.5s;
+          }
+          #bovenbalk{
+            width: 100%; 
+            height: 100px;
+            background-image: linear-gradient(#222, #eee);
+          }
+          #styling{
+            width: 150px;
+            height: 100px;
+            margin-top: -50px;
+            margin-left: 70px;
+    
+          }
+    
+          #logo{
+            width: 50px;
+            height: 50px;
+           
+        }
+          #menuknop{
+            font-size: 20px;
+            cursor: pointer; 
+          }
+          
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+          }
+          
+          .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+          
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+    
+          #wrap{
+              margin-top: 50px;
+          }
+      
+          #mid{
+              font-size: 10px; 
+              width: 70%;
+              height: 40%;
+              margin: auto;
+              margin-left: 15%;
+          }
+          #initiatie{
+              margin-top: -230px;
+              font-size: 16px;
+          }
+          #schietles{
+              margin-top: -230px;
+              font-size: 16px;
+          }
+         
+          footer{
+              width: 100%;
+              height: 50px;
+              position: fixed;
+              bottom: 0;
+              left: 0;
+              background-image: linear-gradient(#eee, #222);
+              text-align: center;
+            }
+            footer p{
+              margin-top: 30px;
+              font-size: 12px; 
+            }
+            #opening{
+                font-size: 16px;
+                height: 120px;
+            }
+      }
+     

@@ -1,0 +1,245 @@
+#omkadering{
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    transition: background-color 0.5s;
+  }
+#main {
+    transition: margin-left .5s;
+    transition: background-color 0.5s;
+  }
+#bovenbalk{
+    width: 100%; 
+    height: 200px; 
+    background-image: linear-gradient(#222, #eee);
+}
+#styling{
+    width: 400px;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: 180px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+}
+#menuknop{
+    font-size: 30px;
+    cursor: pointer; 
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+
+#voetstappen{
+    width: 200px;
+    height: 400px;
+}
+#voetstappen1{
+    width: 200px;
+    height: 400px;
+}
+#voetstappen2{
+    width: 200px;
+    height: 400px;
+}
+#voetstappen3{
+    width: 200px;
+    height: 400px;
+}
+
+#fotologin{
+width: 300px;
+height: 300px;
+}
+
+#fotoregistratie{
+width: 300px;
+height: 300px;
+}
+
+#fotokeuze{
+    width: 300px;
+    height: 300px;
+}
+
+#fotowapen{
+    width: 500px;
+    height: 500px;
+}
+
+#fotodrank{
+    width: 500px;
+    height: 500px;
+}
+
+
+ 
+  footer{
+    width: 100%;
+    height: 100px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(#eee, #222);
+    text-align: center;
+  }
+  footer p{
+    margin-top: 50px;
+  }
+
+  #titel{
+    width: 100%; 
+    padding-top: 150px; 
+    text-align: center;
+}
+#Stap1{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+#Stap2{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px; 
+}
+#Stap3{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px; 
+}
+#Stap4{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+#tekst1{
+    width: 50%;
+    padding-left: 25%;
+}
+#tekst2{
+    width: 50%;
+    padding-left: 25%;
+}
+#tekst3{
+    width: 50%;
+    padding-left: 25%;
+}
+#tekst4{
+    width: 50%;
+    padding-left: 25%;
+}
+ 
+@media screen and (min-width: 1600px){
+
+    #omkadering{
+        font-size: 30px;
+    }
+    #fotokeuze{
+        width: 400px;
+        height: 400px;
+    }
+    #fotowapen{
+        width: 1000px;
+        height: 900px;
+    }
+    #fotodrank{
+        width: 900px;
+        height: 900px;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    #bovenbalk{
+        width: 140%;
+    }
+  
+    #omkadering{
+        margin-top: 10px;
+        width: 140%;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    #bovenbalk{
+        width: 155%;
+    }
+    #omkadering{
+        width: 150%;
+        margin: auto; 
+        margin-left: 2.5%;
+        margin-bottom: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 360px){
+
+    #omkadering{
+
+        width: 161%;
+
+    }
+    #bovenbalk{
+        width: 161%;
+    }
+#fotowapen{
+    width: 100%; 
+    height: 10%;
+}
+
+}
+
+@media screen and (max-width: 320px){
+
+#bovenbalk{
+    width: 181%;
+}
+#omkadering{
+    margin: auto; 
+    margin-left: 10%;
+}
+
+}
